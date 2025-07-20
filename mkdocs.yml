@@ -411,6 +411,8 @@ plugins:
       width: 90%
       shadow: true
   - search
+  - mkdocs-video:
+      is_video: True
   - group: # These plugins only run when the site is deployed
       enabled: !ENV CI
       plugins:
